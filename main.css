@@ -1,0 +1,85 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    background-color: rgb(249, 243, 231);
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.greenBox {
+    background-color: rgb(186, 139, 39);
+    width: 300px;
+    height: 50px;
+    
+}
+.greenBox ul {
+    list-style-type: none;
+
+    
+}
+.greenBox ul li {
+    display: inline;
+    padding-left: 10px;
+}
+.blueBox {
+    background-color: rgb(186, 139, 39);
+    width: 300px;
+    height: 50px;
+    
+    text-align: center;
+    color: white;
+}
+.nav {
+    background-color: rgb(186, 139, 39);
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.tile {
+    border-style: solid;
+    border-width: 2px;
+    border-color: orange;
+    border-radius: 5px;
+    background-color: white;
+    width: 200px;
+    display: inline-block;
+    margin: 10px;
+}
+.flexbox-container {
+    width: 1000px;
+    margin: 100px auto;
+    flex-wrap: wrap;
+    
+}
+
+
+.tile h1 {
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 20px;
+}
+.tile p {
+    text-align: left;
+    padding-left: 3px;
+    font-size: 16px;
+}
+.tile button {
+    margin: 0 auto;
+    display: block;
+    color: white;
+    background-color: rgb(186, 139, 39);
+    width: 90%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+}
+
+
